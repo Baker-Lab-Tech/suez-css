@@ -82,3 +82,19 @@ button.vfrc-launcher:before {
     position: relative;
     overflow: visible !important
 }
+
+
+.vfrc-button,
+.vfrc-button.vfrc-launcher,
+.vfrc-button.vfrc-header--button,
+.vfrc-button.vfrc-privacy__primary-button,
+.vfrc-button:hover,
+.vfrc-button.vfrc-launcher:hover,
+.vfrc-button.vfrc-header--button:hover,
+.vfrc-button.vfrc-privacy__primary-button:hover {
+    background-color: #030f40
+}
+
+.vfrc-user-response div {
+    background-color: #030f40
+}
