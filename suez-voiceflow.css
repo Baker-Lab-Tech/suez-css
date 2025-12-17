@@ -84,13 +84,14 @@ button.vfrc-launcher:before {
 }
 
 
-.vfrc-button,
+
+:not(.vfrc-system-response--action)>.vfrc-button,
+:not(.vfrc-system-response--action)>.vfrc-button:hover,
 .vfrc-button.vfrc-launcher,
-.vfrc-button.vfrc-header--button,
-.vfrc-button.vfrc-privacy__primary-button,
-.vfrc-button:hover,
 .vfrc-button.vfrc-launcher:hover,
+.vfrc-button.vfrc-header--button,
 .vfrc-button.vfrc-header--button:hover,
+.vfrc-button.vfrc-privacy__primary-button,
 .vfrc-button.vfrc-privacy__primary-button:hover {
     background-color: #030f40
 }
