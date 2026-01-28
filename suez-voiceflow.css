@@ -48,7 +48,7 @@ button.vfrc-launcher:before {
 
 .vfrc-prompt button:last-of-type:after {
     content: "Annuler";
-    color: #030f40;
+    color: #fff;
     position: absolute;
     left: 50%;
     top: 50%;
